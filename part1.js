@@ -12,8 +12,5 @@ const [leftArray, rightArray] = data.trim().split('\n').reduce(
 leftArray.sort();
 rightArray.sort();
 
-const total = leftArray.reduce((acc, cur, idx) => {
-    return acc + Math.abs(rightArray[idx] - cur);
-}, 0)
-
-console.log(total);//1882714
+console.log(leftArray.reduce((acc, cur, idx) =>  acc + Math.abs(rightArray[idx] - cur), 0));
+// 1882714
