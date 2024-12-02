@@ -22,4 +22,4 @@ const total = data.split('\n').reduce((acc, line) => {
 
 
 console.log(total);
-// 2
+// 686
