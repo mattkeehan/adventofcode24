@@ -13,4 +13,4 @@ const getValFromMul = mul => {
 
 const result = matches.reduce((acc, mul) => acc + getValFromMul(mul), 0);
 
-console.log(`result = ${result}`); // 166357705
+console.log(`result = ${result}`); // 
